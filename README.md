@@ -10,7 +10,7 @@ $docker login
 $docker push "your_username/mywebapp:latest"  
 Verify in Dockerhub  
 
-#Run
+#Run  
 $docker run docker run -d -p 80:80 mywebapp:latest  
 
 
